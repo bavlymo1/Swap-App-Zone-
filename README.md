@@ -4,7 +4,7 @@
 ![Dart](https://img.shields.io/badge/Dart-3.x%2B--0F74BD?style=flat-square&logo=dart&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 
-A modern, cross-platform Flutter application for item swapping. Users can list items, request swaps, manage their profiles, and track swap history across iOS and Android. Built with Clean Architecture, Firebase, and a geo-location-aware feed.
+A modern, cross-platform Flutter application for item swapping. Users can list items, request swaps, manage their profiles, and track swap history across iOS and Android. Built with Clean Architecture.
 
 ---
 
@@ -16,14 +16,14 @@ A modern, cross-platform Flutter application for item swapping. Users can list i
 
 ## Features
 
-- Authentication: Secure user registration and login via Firebase Auth
-- Home Feed: Browse and search items available for swap
-- Geo-location Feed: Discover nearby swap offers based on your location
-- Swap Requests: Send, receive, and manage swap requests
-- In-app Messaging: Chat with other users about swap offers
-- Profile Management: View and edit user profiles and swap history
-- Real-time data sync via Firestore
-- Responsive UI optimized for iOS and Android
+- **Authentication:** Secure user registration and login via Firebase Auth
+- **Home Feed:** Browse and search items available for swap
+- **Geo-location Feed:** Discover nearby swap offers based on your location
+- **Swap Requests:** Send, receive, and manage swap requests
+- **In-app Messaging:** Chat with other users about swap offers
+- **Profile Management:** View and edit user profiles and swap history
+- **Real-time sync:** Real-time data sync via Firestore
+- **Responsive UI:** Optimized for iOS and Android
 
 ---
 
@@ -45,7 +45,7 @@ A modern, cross-platform Flutter application for item swapping. Users can list i
 
 This project follows Clean Architecture:
 
-```
+```text
 lib/
 ├── core/             # Shared utilities, routing, theme
 ├── features/
@@ -70,41 +70,41 @@ lib/
 
 1. Clone the repository
    ```bash
-      git clone https://github.com/bavlymo1/Swap-App-Zone-.git
-         cd Swap-App-Zone-
-            ```
+   git clone https://github.com/bavlymo1/Swap-App-Zone-.git
+   cd Swap-App-Zone-
+   ```
 
-            2. Install dependencies
-               ```bash
-                  flutter pub get
-                     ```
+2. Install dependencies
+   ```bash
+   flutter pub get
+   ```
 
-                     3. Configure Firebase
-                        - Follow the [FlutterFire CLI guide](https://firebase.flutter.dev/overview)
-                           - Run `flutterfire configure` to generate `firebase_options.dart`
+3. Configure Firebase
+   - Follow the [FlutterFire CLI guide](https://firebase.flutter.dev/overview)
+   - Run `flutterfire configure` to generate `firebase_options.dart`
 
-                           4. Run code generation
-                              ```bash
-                                 flutter pub run build_runner build --delete-conflicting-outputs
-                                    ```
+4. Run code generation
+   ```bash
+   flutter pub run build_runner build --delete-conflicting-outputs
+   ```
 
-                                    5. Run the app
-                                       ```bash
-                                          flutter run
-                                             ```
+5. Run the app
+   ```bash
+   flutter run
+   ```
 
-                                             ---
+---
 
-                                             ## Contributing
+## Contributing
 
-                                             Contributions are welcome! Please open an issue or submit a Pull Request.
+Contributions are welcome! Please open an issue or submit a Pull Request.
 
-                                             ---
+---
 
-                                             ## License
+## License
 
-                                             This project is open source for learning and demonstration purposes.
+This project is open source for learning and demonstration purposes.
 
-                                             ---
+---
 
-                                             Made by [Bahy Mohy](https://github.com/bavlymo1) | [LinkedIn](https://www.linkedin.com/in/bahy-mohy-0b5ab6407/)
+Made by [Bahy Mohy](https://github.com/bavlymo1) | [LinkedIn](https://www.linkedin.com/in/bahy-mohy-0b5ab6407/)
